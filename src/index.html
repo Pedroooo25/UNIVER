@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Unilibre</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://i.ytimg.com/vi/LnSzt1WuO3c/maxresdefault.jpg') no-repeat center center fixed; 
+            background-size: cover;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background: rgba(31, 64, 55, 0.8); 
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        header img {
+            width: 120px; 
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        nav {
+            background: #1f1f1f;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #99f2c8;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: #99f2c8;
+            color: #1f1f1f;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .contenedor {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            margin: 20px 0;
+            padding: 20px;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        .contenedor:hover {
+            transform: translateY(-5px);
+        }
+
+        .contenedor h2 {
+            color: #99f2c8;
+            font-size: 2.5em;
+            border-bottom: 2px solid #99f2c8;
+            padding-bottom: 10px;
+            position: relative;
+        }
+
+        .contenedor p {
+            color: #ccc;
+            font-size: 18px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            background: #1f1f1f;
+            color: #99f2c8;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; 
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Escudo_de_la_Universidad_Libre_de_Colombia.svg/640px-Escudo_de_la_Universidad_Libre_de_Colombia.svg.png" alt="Logo Universidad Unilibre">
+        <h1>Universidad Unilibre</h1>
+        <p>Innovación y Liderazgo en Educación</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#programas">Programas</a></li>
+            <li><a href="#admisiones">Admisiones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#carreras">Carreras</a></li> 
+            <li><a href="https://aulasvirtuales.unilibre.edu.co/local/didactic_login/" target="_blank">eLibre</a></li>
+            <li><a href="https://siul.unilibre.edu.co/sinugwt/" target="_blank">Siul</a></li> 
+            <li><a href="https://www.instagram.com/pdcs_25/profilecard/?igsh=MXkwM3gwbHVzcWhzeQ==" target="_blank">Nuestro Programador</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="nosotros" class="contenedor">
+            <h2>Nosotros</h2>
+            <p>En la Universidad Unilibre, nos comprometemos a brindar educación de calidad que fomente el crecimiento personal y profesional, Recientemente, el grupo Scimago dio a conocer su ranking 2022. Los resultados para la Universidad Libre son altamente satisfactorios, pues en los tres factores evaluados: investigación, innovación y social, así como en la medición global, la Libre sobresale entre la comunidad académica.</p>
+            <div class="video-container">
+            
+            <img src="https://www.unilibre.edu.co/pereira/images/2022/rector-nacional.jpg" alt="Imagen de la Universidad Unilibre">
+        </div>
+        <div id="programas" class="contenedor">
+            <h2>Programas Académicos</h2>
+            <p>Descubre nuestros programas de licenciatura y posgrado, diseñados para preparar a los líderes del mañana.</p>
+            <img src="https://www.unilibre.edu.co/bogota/images/2024/Calendario%20acad%C3%A9mico%20Banner%202024_Mesa%20de%20trabajo%201%20copia%202.png" alt="Programas Académicos">
+        </div>
+        <div id="admisiones" class="contenedor">
+            <h2>Proceso de Admisión</h2>
+            <p>Infórmate sobre los requisitos y pasos necesarios para unirte a nuestra comunidad académica.</p>
+            <img src="https://www.unilibre.edu.co/bogota/images/2020/abril/Oficina-de-Admisiones-y-Registro-ai-banner-pag-UL-Texto.jpg" alt="Proceso de Admisión">
+        </div>
+        <div id="carreras" class="contenedor">
+            <h2>Carreras Ofrecidas</h2>
+            <p>En la Universidad Unilibre, ofrecemos una variedad de carreras diseñadas para satisfacer las necesidades del mercado laboral y fomentar el desarrollo profesional de nuestros estudiantes. Algunas de las carreras incluyen:</p>
+            <ul>
+                <li><strong>Ingeniería de Sistemas</strong> - Enfocada en el desarrollo de software y tecnología de la información.</li>
+                <li><strong>Administración de Empresas</strong> - Formando líderes en el mundo empresarial.</li>
+                <li><strong>Psicología</strong> - Estudio del comportamiento humano y su aplicación en diversos contextos.</li>
+                <li><strong>Derecho</strong> - Preparando profesionales en el ámbito legal.</li>
+                <li><strong>Arquitectura</strong> - Diseño y planificación de espacios funcionales y estéticamente agradables.</li>
+            </ul>
+        </div>
+    </main>
+    <footer id="contacto">
+        <p>Información de contacto: info@unilibre.com | Teléfono: 3137755038</p>
+    </footer>
+</body>
+</html>
